@@ -2,27 +2,22 @@
   <img width="500" alt="osu! logo" src="assets/lazer.png">
 </p>
 
-# osu!
+# osu!vr
 
-[![Build status](https://github.com/ppy/osu/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/ppy/osu/actions/workflows/ci.yml)
-[![GitHub release](https://img.shields.io/github/release/ppy/osu.svg)](https://github.com/ppy/osu/releases/latest)
-[![CodeFactor](https://www.codefactor.io/repository/github/ppy/osu/badge)](https://www.codefactor.io/repository/github/ppy/osu)
-[![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/ppy)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/osu-web/localized.svg)](https://crowdin.com/project/osu-web)
+[![GitHub release](https://img.shields.io/github/release/nitrosonic/osu-vr.svg)](https://github.com/nitrosonic/osu-vr/releases/latest)
+[![CodeFactor](https://www.codefactor.io/repository/github/nitrosonic/osu-vr/badge)](https://www.codefactor.io/repository/github/nitrosonic/osu-vr)
+[![Crowdin (original osu!)](https://d322cqt584bo4o.cloudfront.net/osu-web/localized.svg)](https://crowdin.com/project/osu-web)
 
-A free-to-win rhythm game. Rhythm is just a *click* away!
+A free-to-win VR rhythm game. Rhythm is just a *look* away!
 
-This is the future – and final – iteration of the [osu!](https://osu.ppy.sh) game client which marks the beginning of an open era! Currently known by and released under the release codename "*lazer*". As in sharper than cutting-edge.
-
+This is a fork of [osu!](https://osu.ppy.sh) for the [Oculus Quest](https://www.meta.com/fi/en/quest/), but it will probably work with other Android VR machines too.
 ## Status
 
-This project is under constant development, but we do our best to keep things in a stable state. Players are encouraged to install from a release alongside their stable *osu!* client. This project will continue to evolve until we eventually reach the point where most users prefer it over the previous "osu!stable" release.
+This project is under constant development, but we do our best to keep things in a stable state.
 
 A few resources are available as starting points to getting involved and understanding the project:
 
-- Detailed release changelogs are available on the [official osu! site](https://osu.ppy.sh/home/changelog/lazer).
-- You can learn more about our approach to [project management](https://github.com/ppy/osu/wiki/Project-management).
-- Track our current efforts [towards full "ranked play" support](https://github.com/orgs/ppy/projects/13?query=is%3Aopen+sort%3Aupdated-desc).
+- Detailed release changelogs for osu!vr are available on the [osu!vr site](https://hassyteam.github.io/ns/osuvr/changelog).
 
 ## Running osu!
 
@@ -30,14 +25,17 @@ If you are just looking to give the game a whirl, you can grab the latest releas
 
 ### Latest release:
 
-| [Windows 8.1+ (x64)](https://github.com/ppy/osu/releases/latest/download/install.exe) | macOS 10.15+ ([Intel](https://github.com/ppy/osu/releases/latest/download/osu.app.Intel.zip), [Apple Silicon](https://github.com/ppy/osu/releases/latest/download/osu.app.Apple.Silicon.zip)) | [Linux (x64)](https://github.com/ppy/osu/releases/latest/download/osu.AppImage) | [iOS 13.4+](https://osu.ppy.sh/home/testflight) | [Android 5+](https://github.com/ppy/osu/releases/latest/download/sh.ppy.osulazer.apk) |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| [Windows 8.1+ (x64)](https://github.com/nitrosonic/osu-vr/releases/latest/download/install.exe) | macOS 10.15+ ([Intel](https://github.com/nitrosonic/osu-vr/releases/latest/download/osu.app.Intel.zip), [Apple Silicon](https://github.com/nitrosonic/osu-vr/releases/latest/download/osu.app.Apple.Silicon.zip)) | [Linux (x64)](https://github.com/nitrosonic/osu-vr/releases/latest/download/osu.AppImage) | [Android 5+](https://github.com/nitrosonic/osu-vr/releases/latest/download/io.github.hassyteam.osuvr.apk) |
+| ------------- | ------------- | ------------- | ------------- |
 
-You can also generally download a version for your current device from the [osu! site](https://osu.ppy.sh/home/download).
+You can also download a version for your current device from the [osu!vr site](https://hassyteam.github.io/ns/osuvr).
 
 If your platform is not listed above, there is still a chance you can manually build it by following the instructions below.
 
-**For iOS/iPadOS users**: The iOS testflight link fills up very fast (Apple has a hard limit of 10,000 users). We reset it occasionally. Please do not ask about this. Check back regularly for link resets or follow [peppy](https://twitter.com/ppy) on twitter for announcements. Our goal is to get the game on mobile app stores in early 2024.
+
+<hr>
+
+#### After this point, nothing has changed from the original osu! readme
 
 ## Developing a custom ruleset
 
